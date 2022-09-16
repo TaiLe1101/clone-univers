@@ -51,6 +51,10 @@ button {
   font-family: "Montserrat";
   src: url("/assets/fonts/Montserrat-Regular.otf");
 }
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url("/assets/fonts/Montserrat-Thin.otf");
+}
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -831,4 +835,150 @@ body {
 .partners .wrapper-partners .wrapper-partents-item + .wrapper-partents-item {
   margin-left: 60px;
   margin-top: 52px;
+}
+
+.roadmap {
+  margin-bottom: 131px;
+}
+.roadmap .wrapper-roadmap .wrapper-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 67px;
+  text-align: center;
+}
+.roadmap .wrapper-roadmap .wrapper-title .title {
+  font-family: "Monument Extended";
+  font-weight: 400;
+  font-size: 4.8rem;
+  line-height: 132%;
+  text-transform: uppercase;
+}
+.roadmap .wrapper-roadmap .wrapper-title .sub-title {
+  font-family: "Montserrat-Thin";
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 130%;
+  width: 632px;
+  max-width: 100%;
+}
+.roadmap .wrapper-roadmap .wrapper-roadmap-item {
+  margin-top: 67px;
+}
+.roadmap .wrapper-roadmap .wrapper-roadmap-item .wrapper-highlight-text {
+  font-weight: 400;
+}
+.roadmap .wrapper-roadmap .wrapper-roadmap-item .descript-roadmap {
+  margin-top: 16px;
+  font-family: "Montserrat-Thin";
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 130%;
+  width: 359px;
+  max-width: 100%;
+}
+
+.join-team {
+  margin-bottom: 97px;
+}
+.join-team .back-gr-bottom {
+  position: relative;
+}
+.join-team .back-gr-bottom .glass {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+}
+.join-team .back-gr-bottom .wrapper-link-join {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.join-team .back-gr-bottom .wrapper-link-join .join-btn {
+  padding: 9px 45px;
+  background-color: #000;
+  border-radius: 10px;
+  font-family: "Monument Extended";
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.003em;
+  cursor: pointer;
+  color: #fff;
+}
+.join-team .back-gr-bottom .wrapper-link-join .descript-join {
+  margin-left: 40px;
+  font-family: "Monument Extended";
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 132%;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+.footer .portgress {
+  border-top: 1px solid #8c8c8c;
+  margin-bottom: 54px;
+}
+.footer .wrapper-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 40px;
+}
+.footer .wrapper-footer .wrapper-left .logo-footer {
+  margin-bottom: 40px;
+}
+.footer .wrapper-footer .wrapper-left .pargr {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 167%;
+  width: 441px;
+  max-width: 100%;
+}
+.footer .wrapper-footer .wrapper-nav-footer {
+  margin: auto;
+}
+.footer .wrapper-footer .wrapper-nav-footer .title {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 167%;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 16px;
+}
+.footer .wrapper-footer .wrapper-nav-footer .link-nav {
+  display: block;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 188%;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.footer .coppy-right {
+  margin-top: 62px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 219%;
+  color: rgba(255, 255, 255, 0.5);
 }/*# sourceMappingURL=index.css.map */
